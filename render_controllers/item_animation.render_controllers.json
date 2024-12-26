@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.item_animation_totem": {
+      "arrays": {
+        "textures": {
+          "array.item_frames": [
+            "texture.item_frame_1",
+            "texture.item_frame_2",
+            "texture.item_frame_3",
+            "texture.item_frame_4",
+            "texture.item_frame_5",
+            "texture.item_frame_6",
+            "texture.item_frame_7",
+            "texture.item_frame_8",
+            "texture.item_frame_9",
+            "texture.item_frame_10",
+            "texture.item_frame_11",
+            "texture.item_frame_12",
+            "texture.item_frame_13",
+            "texture.item_frame_14"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "variable.is_enchanted ? material.enchanted : material.default"
+        }
+      ],
+      "textures": [ "temp.life_time = query.life_time * 8.0; return array.item_frames[temp.life_time];", "texture.enchanted" ]
+    }
+  }
+}

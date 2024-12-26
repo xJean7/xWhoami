@@ -1,0 +1,46 @@
+item.apple.name=Manzana 	#
+item.baked_potato.name=Papa asada 	#
+item.beetroot.name=Betabel 	#
+item.beetroot_soup.name=Sopa de betabel 	#
+item.bread.name=Pan 	#
+item.cake.name=Pastel 	#
+item.carrot.name=Zanahoria 	#
+item.chorus_fruit.name=Fruta coral 	#
+item.cooked_beef.name=Filete cocido 	#
+item.cooked_chicken.name=Pollo cocinado 	#
+item.cooked_fish.name=Bacalao cocinado 	#
+item.muttonCooked.name=Cordero cocinado 	#
+item.cooked_porkchop.name=Chuleta de cerdo cocinada 	#
+item.cooked_rabbit.name=Conejo cocinado 	#
+item.cooked_salmon.name=Salmón cocinado 	#
+item.cookie.name=Galleta 	#
+item.dried_kelp.name=Alga parda seca 	# 
+item.appleEnchanted.name=Manzana encantada 	#
+item.golden_apple.name=Manzana de oro 	#
+item.golden_carrot.name=Zanahoria de oro 	#
+item.honey_bottle.name=Botella de miel 	#
+item.melon.name=Sandía 	#
+item.mushroom_stew.name=Sopa de hongos 	#
+item.poisonous_potato.name=Papa venenosa  	#
+item.potato.name=Papa 	#
+item.pufferfish.name=Pez globo  	#
+item.pumpkin_pie.name=Pay de calabaza 	#
+item.rabbit_stew.name=Sopa de conejo 	#
+item.beef.name=Ternera cruda 	#
+item.chicken.name=Pollo crudo  	#
+item.fish.name=Bacalao crudo 	#
+item.muttonRaw.name=Cordero crudo 	#
+item.porkchop.name=Chuleta de cerdo cruda 	#
+item.rabbit.name=Conejo crudo 	#
+item.salmon.name=Salmón crudo 	#
+item.rotten_flesh.name=Carne podrida  	#
+item.spider_eye.name=Ojo de araña  	#
+item.suspicious_stew.name=Estofado sospechoso 	#
+item.sweet_berries.name=Bayas dulces 	#
+item.clownfish.name=Pez tropical 	#
+item.glow_berries.name=Moras brillantes 	#
+
+
+
+map.position= §cx§r:%s, §ay§r:%s, §bz§r:%s
+hudScreen.daysPlayed= Días jugados: %s

@@ -1,0 +1,109 @@
+{
+  "namespace": "profile",
+
+  "information_and_selection_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%c" ],
+
+    "$info_title_control_left|default": "profile.featured_title_panel",
+    "$info_title_control_right|default": "profile.featured_title_panel",
+    "$info_content_control_left|default": "common.empty_panel",
+    "$info_content_control_right|default": "common.empty_panel",
+
+    "$left_title_text|default": "",
+    "$right_title_text|default": "",
+
+    "controls": [
+      {
+        "horizontal_stack": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          "controls": [
+            {
+              "title_content_panel": {
+                "type": "image",
+                "size": [ "100%", 14 ],
+                "layer": 4,
+                "alpha": "$dressing_room_panel_alpha",
+                "texture": "textures/ui/dressing_room_banner",
+                "color": "$rarity_common_bg_color",
+                "controls": [
+                  {
+                    "title_stack": {
+                      "type": "stack_panel",
+                      "orientation": "horizontal",
+                      "size": [ "100%", "100%" ],
+                      "controls": [
+                        {
+                          "left_title@$info_title_control_left": {
+                            "$title_text": "$left_title_text"
+                          }
+                        },
+                        {
+                          "right_title@$info_title_control_right": {
+                            "$title_text": "$right_title_text"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "bottom_section_content_panel": {
+                "type": "stack_panel",
+                "orientation": "horizontal",
+                "size": [ "100%", "100%cm" ],
+                "controls": [
+                  {
+                    "left_content_control@$info_content_control_left": {}
+                  },
+                  {
+                    "right_content_control@$info_content_control_right": {}
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "title_content_panel_background": {
+    "type": "image",
+    "layer": 4,
+    "texture": "textures/ui/White",
+    "color": "$featured_info_panel"
+  },
+  "create_persona_choice_button@common_toggles.dark_content_toggle": {
+    "size": [ 233, 50 ],
+    "$button_size_override": [ "100%", "100%" ],
+
+    "$toggle_name": "toggle_create_persona_choice",
+    "$toggle_binding_type": "collection",
+    "$toggle_state_binding_name": "#persona_type_toggle_state",
+
+    "$toggle_grid_collection_name": "persona_type_toggles_collection",
+    "$toggle_collection_details_type": "collection_details",
+    "$toggle_collection_detail_name": "persona_type_toggles_collection",
+
+    "$default_texture": "textures/ui/White",
+    "$hover_texture": "textures/ui/White",
+    "$unchecked_locked_texture": "textures/ui/White",
+    "$checked_locked_texture": "textures/ui/White",
+    "$pressed_texture": "textures/ui/White",
+    "$pressed_no_hover_texture": "textures/ui/White",
+
+    "$checked_image": "profile.create_persona_choice_checked_image",
+    "$unchecked_image": "profile.create_persona_choice_unchecked_image",
+
+    "$default_texture_color": "$profile_create_character_unselected_color",
+    "$default_checked_texture_color": "$profile_create_character_selected_dark_color",
+    "$hover_texture_color": "$profile_create_character_unselected_color",
+    "$hover_checked_texture_color": "$profile_create_character_selected_dark_color",
+
+    "$button_type_panel": "profile.create_persona_choice_background"
+  }
+}

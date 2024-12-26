@@ -1,0 +1,30 @@
+{
+  "namespace": "ryQC:config",
+  "base": {
+// -------------------------
+
+// These are the display name for Auto Search Item buttons.
+  "$itemSearchButtonName_01": "Tronco",
+  "$itemSearchButtonName_02": "Tablones",
+  "$itemSearchButtonName_03": "Diamante",
+  "$itemSearchButtonName_04": "Poción",
+  "$itemSearchButtonName_05": "Libro",
+  "$itemSearchButtonName_06": "Shulker",
+  "$itemSearchButtonName_07": "Lingote",
+  "$itemSearchButtonName_08": "Tótem",
+  
+// These are where you can put item/block name for Auto Search Item you want to be selected.
+// Use language according to the language in your Minecraft and case sensitive!
+// Example: the language in my Minecraft is Indonesian, so "$itemSearchName_01": "Beliung Berlian"
+  "$itemSearchName_01": "Tronco",
+  "$itemSearchName_02": "Tablones",
+  "$itemSearchName_03": "Diamante",
+  "$itemSearchName_04": "Poción",
+  "$itemSearchName_05": "Libro encantado",
+  "$itemSearchName_06": "Caja de Shulker",
+  "$itemSearchName_07": "Lingote",
+  "$itemSearchName_08": "Tótem"
+  
+// -------------------------
+  }
+}

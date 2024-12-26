@@ -1,0 +1,1 @@
+{"namespace":"popup_dialog","modal_dialog_base@common.base_screen":{"force_render_below":true,"is_showing_menu":false,"absorbs_input":false,"$screen_content":"common.base_screen_empty_panel","$screen_bg_content":"common.base_screen_empty_panel"},"progress_dialog_popup":{"type":"panel","size":[0,0],"layer":-12345678}}

@@ -1,0 +1,34 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.buried_treasure" : { "loop" : true, "bones" : {
+				"treasure1_0" : { "rotation" : [ 0, "v.chunk_align_pivot", 0 ] },
+				"treasure1_1" : { "position" : [ "v.chunk_align_x", 0, "v.chunk_align_z" ] }
+			}
+		},
+		"animation.density" : { "loop" : true, "bones" : {
+				"density1_0" : { "rotation" : [ 0, "v.chunk_align_pivot", 0 ] },
+				"density1_1" : { "position" : [ "v.chunk_align_x", 0, "v.chunk_align_z" ] }
+			}
+		},
+		"animation.guardian_spots": { "loop": true, "bones": {
+				"guardian_base": { "rotation": [ 0, "v.chunk_align_pivot", 0 ] },
+				"guardian1_0":{ "position":[ "v.chunk_align_x", "v.guardian_y_align", "v.chunk_align_z" ] }
+			}
+		},
+		"animation.witch_hut" : { "loop" : true, "bones" : {
+				"witch1_0" : { "rotation" : [ 0, "v.chunk_align_pivot", 0 ] },
+				"witch1_1" : { "position" : [  "v.chunk_align_x", 0, "v.chunk_align_z" ] }
+			}
+		},
+		"animation.outpost_spots" : { "loop" : true, "bones" : {
+				"outpost1_0" : { "rotation" : [ 0, "v.chunk_align_pivot", 0  ] },
+				"outpost1_1" : { "position" : [ "v.chunk_align_x", 0, "v.chunk_align_z" ] }
+			}
+		},
+		"animation.spawner_radius" : { "loop" : true, "bones" : {
+				"spawner1_5" : { "rotation" : [ 0, "query.time_stamp", 0  ] }
+			}
+		}
+	}
+}

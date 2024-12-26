@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hud_armor_root": {
+      "loop": true,
+      "bones": {
+        "hud_armor_root": {
+          "position": [ 0, "(query.is_swimming ? -17.1275 : 0.0) + 500.0", 0 ]
+        }
+      }
+    },
+    "animation.hud_offhand": {
+      "loop": true,
+      "bones": {
+        "hud_offhand": { 
+          "scale": 0.6
+        }
+      }
+    },
+    "animation.hud_offhand_slot": {
+      "loop": true,
+      "bones": {
+        "hud_offhand_slot": {
+          "position": [ 0, "(query.is_swimming ? -17.1275 : 0.0) + 879.6", 0 ],
+          "scale": 0.87
+        }
+      }
+    }
+  }
+}

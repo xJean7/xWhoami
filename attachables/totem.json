@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "animations": {
+        "first_person": "animation.totem.first_person",
+        "third_person": "animation.totem.third_person"
+      },
+      "geometry": {
+        "totem_left": "geometry.totem_left",
+        "totem_right": "geometry.totem_right"
+      },
+      "identifier": "minecraft:totem_of_undying",
+      "materials": {
+        "default": "skeleton"
+      },
+      "render_controllers": [
+        {
+          "controller.render.totem_right": "query.get_equipped_item_name('main_hand') == 'totem_of_undying'"
+        },
+        {
+          "controller.render.totem_left": "query.get_equipped_item_name('off_hand') == 'totem_of_undying'"
+        }
+      ],
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person"
+          },
+          {
+            "third_person": "!c.is_first_person"
+          }
+        ]
+      },
+      "textures": {
+        "default": "textures/nxzott/skin.png"
+      }
+    }
+  }
+}

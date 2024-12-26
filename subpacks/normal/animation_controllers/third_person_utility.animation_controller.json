@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.third_person_utility": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations":[
+          	"health"
+          ]
+        }
+      }
+    }
+  }
+}

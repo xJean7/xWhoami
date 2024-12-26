@@ -1,0 +1,46 @@
+{
+	"namespace": "progress",
+	"overworld_loading_progress_screen": {
+		"force_render_below": true,
+		"is_showing_menu": false,
+		"should_steal_mouse": true,
+		"absorbs_input": false,
+		"$always_accepts_input": true,
+		"$screen_content": "common.empty_panel",
+		"$screen_bg_content": "common.empty_panel"
+	},
+	"nether_loading_progress_screen": {
+		"force_render_below": true,
+		"is_showing_menu": false,
+		"should_steal_mouse": true,
+		"absorbs_input": false,
+		"$always_accepts_input": true,
+		"$screen_content": "common.empty_panel",
+		"$screen_bg_content": "common.empty_panel"
+	},
+	"theend_loading_progress_screen": {
+		"force_render_below": true,
+		"is_showing_menu": false,
+		"absorbs_input": false,
+		"$always_accepts_input": true,
+		"should_steal_mouse": true,
+		"$screen_content": "common.empty_panel",
+		"$screen_bg_content": "common.empty_panel"
+	}
+}	"world_loading_progress_screen": {
+		"force_render_below": true,
+		"is_showing_menu": false,
+		"absorbs_input": false,
+		"$always_accepts_input": true,
+		"$screen_content": "common.empty_panel",
+		"$screen_bg_content": "common.empty_panel"
+	},
+	"world_saving_progress_screen": {
+		"force_render_below": true,
+		"is_showing_menu": false,
+		"absorbs_input": false,
+		"$always_accepts_input": true,
+		"$screen_content": "common.empty_panel",
+		"$screen_bg_content": "common.empty_panel"
+	}
+}

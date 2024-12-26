@@ -1,0 +1,80 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.endercrystal_hand",
+				"texture_width": 128,
+				"texture_height": 64
+			},
+			"bones": [
+				{
+					"name": "rightitem",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone2",
+					"parent": "rightitem",
+					"pivot": [0.6, 6.8, 0],
+					"cubes": [
+						{
+							"origin": [-4.8, 2, -4.8],
+							"size": [9.6, 9.6, 9.6],
+							"uv": {
+								"north": {"uv": [80, 16], "uv_size": [16, 16]},
+								"east": {"uv": [64, 16], "uv_size": [16, 16]},
+								"south": {"uv": [112, 16], "uv_size": [16, 16]},
+								"west": {"uv": [96, 16], "uv_size": [16, 16]},
+								"up": {"uv": [80, 0], "uv_size": [16, 16]},
+								"down": {"uv": [96, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone2",
+					"pivot": [0.6, 6.8, 0],
+					"rotation": [0, 0, 45],
+					"cubes": [
+						{
+							"origin": [-4, 2.8, -4],
+							"size": [8, 8, 8],
+							"inflate": 2,
+							"pivot": [0.6, 2, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [16, 16]},
+								"east": {"uv": [0, 16], "uv_size": [16, 16]},
+								"south": {"uv": [48, 16], "uv_size": [16, 16]},
+								"west": {"uv": [32, 16], "uv_size": [16, 16]},
+								"up": {"uv": [16, 0], "uv_size": [16, 16]},
+								"down": {"uv": [32, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone2",
+					"pivot": [0.6, 6.8, 0],
+					"cubes": [
+						{
+							"origin": [-3.2, 3.6, -3.2],
+							"size": [6.4, 6.4, 6.4],
+							"inflate": 4,
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [16, 16]},
+								"east": {"uv": [0, 16], "uv_size": [16, 16]},
+								"south": {"uv": [48, 16], "uv_size": [16, 16]},
+								"west": {"uv": [32, 16], "uv_size": [16, 16]},
+								"up": {"uv": [16, 0], "uv_size": [16, 16]},
+								"down": {"uv": [32, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

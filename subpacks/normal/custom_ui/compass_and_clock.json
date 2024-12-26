@@ -1,0 +1,41 @@
+{
+  "namespace": "compass_and_clock",
+  "item_renderer": {
+    "type": "custom",
+    "renderer": "inventory_item_renderer",
+    "size": [16, 16]
+  },
+  "PanelDeItems": {
+    "type": "panel",
+    "size": ["13%", "11%"],
+    "offset": ["0%", "2%"],
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "controls": [
+      {
+        "brújula_item@compass_and_clock.item_renderer": {
+          "offset": ["39%", "-400%"],
+          "property_bag": {
+            "#item_id_aux": 22609920
+          }
+        }
+      },
+      {
+        "reloj_item@compass_and_clock.item_renderer": {
+          "offset": ["39%", "-488%"],
+          "property_bag": {
+            "#item_id_aux": 22740992
+          }
+        }
+      },
+      {
+        "brújula_de_recuperación_item@compass_and_clock.item_renderer": {
+          "offset": ["38%", "-321%"],
+          "property_bag": {
+            "#item_id_aux": 44761088
+          }
+        }
+      }
+    ]
+  }
+}}

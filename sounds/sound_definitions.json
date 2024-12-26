@@ -1,0 +1,37 @@
+{
+  "ambient.weather.thunder": {
+    "category": "weather",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/ambient/weather/thunder1",
+      "sounds/ambient/weather/thunder2",
+      "sounds/ambient/weather/thunder3"
+    ]
+  },
+  "ambient.weather.lightning.impact": {
+    "category": "weather",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/random/explode1",
+      "sounds/random/explode2",
+      "sounds/random/explode3",
+      "sounds/random/explode4"
+    ]
+  },
+  "ambient.weather.rain": {
+    "category": "weather",
+    "min_distance": 100.0,
+    "sounds": [
+      "sounds/ambient/weather/rain1",
+      "sounds/ambient/weather/rain2",
+      "sounds/ambient/weather/rain3",
+      "sounds/ambient/weather/rain4"
+    ]
+  },
+  "liquid.water": {
+    "category": "block",
+    "sounds": [
+      "sounds/liquid/water"
+    ]
+  }
+}

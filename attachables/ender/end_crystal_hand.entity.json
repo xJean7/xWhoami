@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:end_crystal",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/endercrystal/endercrystal"
+      },
+      "geometry": {
+        "default": "geometry.endercrystal_hand"
+      },
+      "animations": {
+        "wield": "animation.end_crystal.first_person_wield",
+        "default": "animation.end_crystal.default",
+        "crystal_movement": "animation.end_crystal.crystal_movement"
+      },
+      "scripts": {
+        "animate": [
+          { "wield": "c.is_first_person && c.item_slot == 'main_hand' && q.get_equipped_item_name == 'end_crystal'"
+          },
+          { "default": "!c.is_first_person && c.item_slot == 'main_hand' && q.get_equipped_item_name == 'end_crystal'"
+          },
+          { "crystal_movement": "q.get_equipped_item_name == 'end_crystal'"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.end_crystal_hand" ]
+    }
+  }
+}

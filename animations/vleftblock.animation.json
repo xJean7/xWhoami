@@ -1,0 +1,15 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.leftblock.first_person_wield": {
+			"loop": true,
+			"bones": {
+				"leftitem": {
+					"rotation": ["c.is_first_person ? -15.0 : 100.0", "c.is_first_person ? 30.0 : 20.0", "c.is_first_person ? 4.0 : 80.0"],
+					"position": ["c.is_first_person ? -23.0 : -6.2", "c.is_first_person ? 6.8 : 7.0", "c.is_first_person ? 7.0 : 4.0"],
+					"scale": ["c.is_first_person ? 4.0 : 5", "c.is_first_person ? 4.0 : 5", "c.is_first_person ? 4.0 : 5"]
+				}
+			}
+		}
+	}
+}

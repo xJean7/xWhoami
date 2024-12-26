@@ -1,0 +1,1 @@
+{"namespace":"credits","credits_screen@common.base_screen":{"force_render_below":true,"is_showing_menu":false,"absorbs_input":false,"should_steal_mouse":true,"$screen_content":"common.base_screen_empty_panel","$screen_bg_content":"common.base_screen_empty_panel"}}

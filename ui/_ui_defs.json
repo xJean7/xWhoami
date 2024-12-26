@@ -1,0 +1,17 @@
+{
+  "ui_defs": [
+    "property/ryQC_button_mapping",
+    "property/ryQC_base",
+    "property/ryQC_templete",
+    "property/ryQC_mass_craft",
+    "property/ryQC_search_item",
+    "property/ryQC_search_item_button",
+    "property/ryQC_search_item_label",
+    "property/ryQC_instant_button",
+    "property/ryQC_quick_items",
+    "property/ryQC_move_column",
+    "property/ryQC_quick_craft",
+    "config/quick_search_config.json",
+"custom_ui/compass_and_clock.json"
+  ]
+}

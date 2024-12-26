@@ -1,0 +1,143 @@
+{
+  "large_chest_panel_top_half": {
+    "controls": [
+      {
+        "chest_label@chest.chest_label": {}
+      },
+      {
+        "large_chest_grid@chest.large_chest_grid": {
+          "offset": [
+            7,
+            10
+          ]
+        }
+      },
+      {
+        "move_large_chest_items_column_panel@ryQC:move_items_column.move_large_chest_items_column_panel": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            7,
+            10
+          ]
+        }
+      }
+    ]
+  },
+  "small_chest_panel_top_half": {
+    "controls": [
+      {
+        "chest_label@chest.chest_label": {}
+      },
+      {
+        "small_chest_grid@chest.small_chest_grid": {
+          "offset": [
+            7,
+            9
+          ]
+        }
+      },
+      {
+        "move_container_items_column_panel@ryQC:move_items_column.move_small_chest_items_column_panel": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            7,
+            9
+          ]
+        }
+      }
+    ]
+  },
+  "small_chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "0@ryQuickContainer_searchitemToggle.stacked_button": {}
+          }
+        ]
+      }
+    ]
+  },
+  "small_chest_panel/root_panel": {
+    "$item_highlighter_text_box_panel_offset": [
+      0,
+      18
+    ],
+    "$item_highlighter_text_box_panel_anchor": "bottom_middle",
+    "$is_chest_screen": true,
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "move_items_column_button@ryQC:move_items_column.move_items_column_button": {}
+          },
+          {
+            "quick_container@ryQC:base.content": {}
+          },
+          {
+            "hotbar_move_column@ryQC:move_items_column.move_hotbar_items_column_panel": {}
+          },
+          {
+            "inv_move_column@ryQC:move_items_column.move_inventory_items_column_panel": {}
+          }
+        ]
+      }
+    ]
+  },
+  "large_chest_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "0@ryQuickContainer_searchitemToggle.stacked_button": {}
+          }
+        ]
+      }
+    ]
+  },
+  "large_chest_panel/root_panel": {
+    "$item_highlighter_text_box_panel_offset": [
+      0,
+      4
+    ],
+    "$item_highlighter_text_box_panel_anchor": "top_middle",
+    "$is_chest_screen": true,
+    "$is_large_chest": true,
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "move_items_column_button@ryQC:move_items_column.move_items_column_button": {}
+          },
+          {
+            "quick_container@ryQC:base.content": {}
+          },
+          {
+            "hotbar_move_column@ryQC:move_items_column.move_hotbar_items_column_panel": {}
+          },
+          {
+            "inv_move_column@ryQC:move_items_column.move_inventory_items_column_panel": {}
+          }
+        ]
+      }
+    ]
+  },
+  "large_chest_panel_top_half/chest_label": {
+    "variables": [
+      {
+        "requires": "($is_full_feature_mode or (not $is_performace_mode)",
+        "$container_title": ""
+      }
+    ]
+  }
+}

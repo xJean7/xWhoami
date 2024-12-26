@@ -1,0 +1,50 @@
+{
+  "namespace": "common",
+  "base_screen": {
+    "load_screen_immediately": true,
+    "screen_draws_last": true,
+    "always_accepts_input": "$always_accepts_input",
+    "$always_accepts_input|default": false
+  },
+  "selected_item_details": {
+    "anchor_to": "$ry_STI:anchor",
+    "anchor_from": "$ry_STI:anchor",
+    "$alpha_anim": "@common.ry_STI:alpha",
+    "offset": []
+  },
+  "ry_STI:alpha": {
+    "anim_type": "alpha",
+    "easing": "in_quint",
+    "destroy_at_end": "selected_item_details",
+    "duration": 5,
+    "from": 1.0,
+    "to": 0
+  },
+  "container_item": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "item_button_reff@ryQC:button_mapping.item_button_reff": {}
+        }
+      }
+    ]
+  },
+  "container_item/item_cell": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "highlighted_items@ryQC:searchitems.highlighted_items": {}
+          },
+          {
+            "unhighlited_items@ryQC:searchitems.unhighlited_items": {}
+          }
+        ]
+      }
+    ]
+  }
+}

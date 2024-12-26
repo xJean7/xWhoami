@@ -1,0 +1,167 @@
+{
+  "format_version": 2,
+  
+  "header": {
+    "name": "§l§cx§r§lWhoami ",
+    "description": "§7El hacking más efectivo no es sobre tecnología, sino sobre explotar la confianza humana. §cKevin Mitnick",
+    "uuid": "f909050b-bf3b-48b6-830f-6d75e46ca1e8",
+    "version": [1, 1, 1],
+    "min_engine_version": [1, 21, 0]
+  },
+  
+  "modules": [
+    {
+      "description": " ",
+      "type": "resources",
+      "uuid": "95fbf4c7-35f0-442c-b8c7-9b9291674c9b",
+      "version": [1, 0, 0]
+    }
+  ],
+  
+  "subpacks": [
+    {
+      "folder_name": "chunks",
+      "name": "Chunks",
+      "memory_tier": 2
+    },
+    {
+      "folder_name": "normal",
+      "name": "Normal",
+      "memory_tier": 2
+    }
+  ],
+  
+  "settings": [
+    {
+      "type": "label",
+      "text": "
+§l§c Nota: Es posible que experimentes problemas de rendimiento
+si utilizas esta textura en dispositivos con 1 o 2 GB de RAM.
+
+Para desbloquear todas las funciones, es necesario usar el
+perfil de la interfaz de usuario en modo clásico.
+
+Además, la textura podría generar errores al
+combinarse con otras.
+
+§7Características:
+
+1┇ Full bright (Solo funciona en mc patch)
+
+2┇ Dirección para las tolvas
+
+3┇ Mejor diseño con los bloques relacionados con la redstone
+
+4┇ Nueva textura para la bedrock
+
+5┇ Modo oscuro transparente
+
+6┇ Armor hud y off hand hud
+
+7┇ Puedes mirar chunks de slime y normales 
+  con una concha de nautilus o con un
+   cohete en la segunda mano; funciona en 1ra/3ra persona
+
+8┇ Nuevo estilo de crosshair
+
+9┇ Mejor diseño de las plantillas de armaduras
+
+10┇ Mejor diseño de las Elytras
+
+11┇ Añade nuevo estilo del cristal del end en la mano
+    y superficie
+
+12┇ Elimina el fog/neblina del nether
+
+13┇ Nuevo diseño al escudo
+
+14┇ Mejores sonidos de lluvia y texturas
+
+15┇ Se ha agregado un botón de exportar mundos
+    en la sección de editar mundos
+
+16┇ Se ha agregado un panel que muestra la brújula, reloj
+    y brújula de recuperación
+
+17┇ Se ha agregado un contorno de bloques blanco
+
+18┇ Se ha agregado diseño 3D al sol y mazo
+
+19┇ Se ha agregado nueva animación al destruir bloques
+
+20┇ Se ha agregado crafteo rápido
+
+21┇ Se han agregado nuevas opciones en todos los
+    tipos de cofres
+
+22┇ Se ha agregado la función para ver todos los
+    tradeos de los aldeanos
+
+23┇ Se han agregado nuevos diseños a los huevos de los mobs
+
+24┇ Se ha cambiado la posición del panel del inventario
+
+25┇ Se ha cambiado el icono del auto guardado
+
+26┇ Se ha eliminado el contorno de nombre de los items
+    en la pantalla principal
+
+27┇ Se ha cambiado el contorno de los nombres de
+    los items en el inventario
+
+28┇ Se ha cambiado el tamaño del efecto del fuego
+    por uno menos estorboso
+
+29┇ Se han eliminado todas las pantallas de carga
+     de los (portales) para tener una experiencia más rápida
+
+30┇ Se han eliminado todas las partículas
+    para aumentar los fps
+
+31┇ Se ha cambiado las texturas de puertas/trampillas,
+    espadas y andamio
+
+32┇ Se ha eliminado la silueta de la calavera y del catalejo
+
+33┇ Añade una pre visualización de los muslitos que
+    da una comida  y la saturación 
+
+34┇ Añade nuevos iconos al contador de dias y a las
+      coordenadas
+
+35┇ Añade nuevo estilo al totem
+
+36┇ Se ha eliminado el fondo negro del chat
+
+37┇ Se ha aumentado la resolución de las letras
+    para que sean mas bonitas
+
+§6Créditos:
+
+§7§l
+      1┇ ItzRiyo15
+Contribución: Quick containers, Slide panel tooltips
+Youtube: @ItzRiyo15
+Discord: https://discord.gg/KeG6wTD9
+
+
+
+
+      2┇ Corlos
+Contribución: Fast spawn eggs
+Youtube: @CORLOS
+Discord: https://discord.gg/wg6XpxYB
+Mcpedl: CORLOS
+
+
+
+     3┇ Madd hatter
+Contribución: Chunks/slime
+Youtube: @MaddHatter
+discord: https://discord.gg/7F6zGvxN
+
+
+      "
+    }                 
+  ]
+}
