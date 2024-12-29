@@ -22,12 +22,12 @@
     {
       "folder_name": "chunks",
       "name": "Chunks",
-      "memory_tier": 2
+      "memory_tier": 0
     },
     {
       "folder_name": "normal",
       "name": "Normal",
-      "memory_tier": 2
+      "memory_tier": 0
     }
   ],
   
