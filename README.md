@@ -1,1 +1,3 @@
-https://github.com/xJean7/xWhoami.wiki.git
+
+Puedes ver las características en la wiki de la textura 
+xWhoami
